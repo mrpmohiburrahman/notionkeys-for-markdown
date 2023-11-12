@@ -1,0 +1,38 @@
+on:
+    push:
+      branches:
+        - main
+  
+  name: Deploy Extension
+  jobs:
+    deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+  
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 16
+  
+        - run: npm ci
+  
+        # Auto-increment patch version
+        - name: Increment Patch Version
+          run: npm version patch --no-git-tag-version
+  
+        # Commit and push the updated package.json
+        - name: Commit and Push Version Bump
+          run: |
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git commit -am "Auto Increment Version [skip ci]"
+            git push
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+        # Publish to Visual Studio Marketplace
+        - name: Publish to Visual Studio Marketplace
+          uses: HaaLeo/publish-vscode-extension@v1
+          with:
+            pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+  
