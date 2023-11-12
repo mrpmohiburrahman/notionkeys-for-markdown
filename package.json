@@ -12,7 +12,7 @@
   "contributes": {
     "snippets": [
       {
-        "language": "md mdx",
+        "language": "markdown",
         "path": "./snippets/snippets.code-snippets"
       }
     ]

@@ -1,1 +1,102 @@
-{}
+{
+  "h1 headline": {
+    "prefix": "/h1",
+    "body": ["# $1", "", "$0"],
+    "description": "h1 headline"
+  },
+  "h2 headline": {
+    "prefix": "/h2",
+    "body": ["## $1", "", "$0"],
+    "description": "h2 headline"
+  },
+  "h3 headline": {
+    "prefix": "/h3",
+    "body": ["### $1", "", "$0"],
+    "description": "h3 headline"
+  },
+  "h4 headline": {
+    "prefix": "/h4",
+    "body": ["#### $1", "", "$0"],
+    "description": "h4 headline"
+  },
+  "h5 headline": {
+    "prefix": "/h5",
+    "body": ["##### $1", "", "$0"],
+    "description": "h5 headline"
+  },
+  "h6 headline": {
+    "prefix": "/h6",
+    "body": ["###### $1", "", "$0"],
+    "description": "h6 headline"
+  },
+  "bold": {
+    "prefix": "/bold",
+    "body": ["**$1**"],
+    "description": "make text bold"
+  },
+  "italic": {
+    "prefix": "/italic",
+    "body": ["*$1*"],
+    "description": "make text italic"
+  },
+  "bold&italic": {
+    "prefix": "/bold and italic",
+    "body": ["***$1***"],
+    "description": "make text bold & italic"
+  },
+  "strikethrough": {
+    "prefix": "/strikethrough",
+    "body": ["~~$1~~"],
+    "description": "put strikethrough text"
+  },
+  "subscript": {
+    "prefix": "/subscript",
+    "body": ["<sub>$1<sub/>"],
+    "description": "put subscript text"
+  },
+  "superscript": {
+    "prefix": "/superscript",
+    "body": ["<sup>$1<sup/>"],
+    "description": "put superscript text"
+  },
+  "quote": {
+    "prefix": "/quote",
+    "body": ["> $1"],
+    "description": "quote text"
+  },
+  "code block": {
+    "prefix": "/code",
+    "body": ["```$1", "$2", "```", "", "$0"],
+    "description": "code block"
+  },
+  "link": {
+    "prefix": "/link",
+    "body": ["[$2]($1)", "$0"],
+    "description": "inline link"
+  },
+  "image": {
+    "prefix": "/image",
+    "body": ["![$2]($1)", "$0"],
+    "description": "image"
+  },
+  "unorderedList": {
+    "prefix": "/unordered list",
+    "body": ["- $1", "$0"],
+    "description": "unordered list"
+  },
+  "orderedList": {
+    "prefix": "/ordered list",
+    "body": ["1. $1", "$0"],
+    "description": "ordered list"
+  },
+  "lineBreak": {
+    "prefix": "/line break",
+    "body": ["  ", "$0"],
+    "description": "line break"
+  },
+  "url/email": {
+    "prefix": "/url/email",
+    "body": ["<$0>"],
+    "description": "url or email"
+  }
+}
