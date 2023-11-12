@@ -1,9 +1,9 @@
 {
   "name": "notionkeys-for-markdown",
-  "displayName": "\"NotionKeys for Markdown\"",
-  "description": "\"Notion like keybindings using '/' for formatting md and mdx\"",
+  "displayName": "NotionKeys for Markdown",
+  "description": "Notion like keybindings using '/' for formatting md and mdx",
   "icon": "images/notionkeys-for-markdown-icon.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.84.0"
   },
