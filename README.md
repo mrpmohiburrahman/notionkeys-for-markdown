@@ -2,6 +2,27 @@
 
 <img alt="Demo of notionskeys-for-markdown" src="https://raw.githubusercontent.com/mrpmohiburrahman/notionkeys-for-markdown/main/videos/notionskeys-demo.gif" />
 
+# Currently Supported Formats
+
+- h1-6
+- bold
+- italic
+- bold and italic
+- strikethrough
+- subscript
+- superscript
+- quote
+- code
+- link
+- image
+- unordered list
+- ordered list
+- line break
+- /url/email
+
+<br>
+<br>
+
 # Upcomming features
 
 - Addig same functionality to mdx file. Feel free to contribute here [notionkeys-for-markdown](https://github.com/mrpmohiburrahman/notionkeys-for-markdown)
