@@ -20,15 +20,6 @@ jobs:
         - name: Increment Patch Version
           run: npm version patch --no-git-tag-version
   
-        # Commit and push the updated package.json
-        - name: Commit and Push Version Bump
-          run: |
-            git config user.name "MD. MOHIBUR RAHMAN"
-            git config user.email 35300157+mrpmohiburrahman@users.noreply.github.com
-            git commit -am "Auto Increment Version [skip ci]"
-            git push
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   
         # Publish to Visual Studio Marketplace
         - name: Publish to Visual Studio Marketplace
