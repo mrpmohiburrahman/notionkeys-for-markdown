@@ -1,0 +1,20 @@
+{
+  "name": "notionkeys-for-markdown",
+  "displayName": "\"NotionKeys for Markdown\"",
+  "description": "\"Notion like keybindings using '/' for formatting md and mdx\"",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "md mdx",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
