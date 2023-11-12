@@ -3,7 +3,7 @@
   "displayName": "\"NotionKeys for Markdown\"",
   "description": "\"Notion like keybindings using '/' for formatting md and mdx\"",
   "icon": "images/notionkeys-for-markdown-icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.84.0"
   },
