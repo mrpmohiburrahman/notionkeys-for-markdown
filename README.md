@@ -1,6 +1,10 @@
 # Demo
 
-<img alt="Demo of notionskeys-for-markdown" src="https://raw.githubusercontent.com/mrpmohiburrahman/notionkeys-for-markdown/main/videos/notionskeys-demo.gif" />
+<img alt="Demo of notionskeys-for-markdown" src="https://raw.githubusercontent.com/mrpmohiburrahman/notionkeys-for-markdown/main/videos/notionskeys-demo-2.gif" />
+
+<br/>
+<br/>
+<br/>
 
 # Currently Supported Formats
 
